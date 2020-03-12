@@ -1,0 +1,463 @@
+EESchema Schematic File Version 5
+EELAYER 32 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 1000 1400
+Connection ~ 2750 2400
+Connection ~ 3450 1000
+Connection ~ 2500 1400
+Connection ~ 3450 2650
+Connection ~ 3850 2650
+Connection ~ 4400 2650
+Connection ~ 3450 3050
+Connection ~ 2750 1800
+Connection ~ 3150 1800
+Connection ~ 3450 1800
+Connection ~ 2100 3050
+Connection ~ 1750 1400
+Connection ~ 2450 3050
+Connection ~ 2100 1400
+Connection ~ 2450 2100
+Wire Wire Line
+	1000 1400 1250 1400
+Wire Wire Line
+	1550 1400 1750 1400
+Wire Wire Line
+	1550 1750 1750 1750
+Wire Wire Line
+	1750 1400 2100 1400
+Wire Wire Line
+	1750 1750 1750 1400
+Wire Wire Line
+	1900 3050 2100 3050
+Wire Wire Line
+	2100 1400 2100 1600
+Wire Wire Line
+	2100 1400 2500 1400
+Wire Wire Line
+	2100 1900 2100 2000
+Wire Wire Line
+	2100 3050 2100 3200
+Wire Wire Line
+	2100 3050 2150 3050
+Wire Wire Line
+	2100 3500 2100 3650
+Wire Wire Line
+	2450 1800 2450 2100
+Wire Wire Line
+	2450 2100 2450 3050
+Wire Wire Line
+	2450 3050 2600 3050
+Wire Wire Line
+	2500 1000 2500 1400
+Wire Wire Line
+	2500 1400 2700 1400
+Wire Wire Line
+	2600 3650 3050 3650
+Wire Wire Line
+	2700 1000 2500 1000
+Wire Wire Line
+	2750 1800 2750 1900
+Wire Wire Line
+	2750 1800 3150 1800
+Wire Wire Line
+	2750 2300 2750 2400
+Wire Wire Line
+	2900 3050 3450 3050
+Wire Wire Line
+	3000 1000 3450 1000
+Wire Wire Line
+	3000 1400 3150 1400
+Wire Wire Line
+	3150 1400 3150 1800
+Wire Wire Line
+	3150 1800 3150 2100
+Wire Wire Line
+	3450 1000 3450 1250
+Wire Wire Line
+	3450 1000 3700 1000
+Wire Wire Line
+	3450 1550 3450 1800
+Wire Wire Line
+	3450 1800 3450 1900
+Wire Wire Line
+	3450 2650 3450 2300
+Wire Wire Line
+	3450 2650 3550 2650
+Wire Wire Line
+	3450 3050 3450 2650
+Wire Wire Line
+	3550 3050 3450 3050
+Wire Wire Line
+	3850 2650 3850 3050
+Wire Wire Line
+	3850 2650 4400 2650
+Wire Wire Line
+	4400 1000 4000 1000
+Wire Wire Line
+	4400 1950 4400 1000
+Wire Wire Line
+	4400 2650 4400 2250
+Wire Wire Line
+	4400 2650 4400 2700
+Wire Wire Line
+	4550 2100 4800 2100
+Text GLabel 950  1750 0    50   Input ~ 0
+LED-
+Text GLabel 1900 3050 0    50   Input ~ 0
+IN
+Text GLabel 3050 3550 0    50   Input ~ 0
+IN
+Text GLabel 3050 3750 0    50   Input ~ 0
+LED-
+Text GLabel 3050 3850 0    50   Output ~ 0
+OUT
+Text GLabel 4800 2100 2    50   Output ~ 0
+OUT
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E6D6554
+P 1000 1400
+F 0 "#FLG01" H 1000 1475 50  0001 C CNN
+F 1 "PWR_FLAG" V 1000 1528 50  0000 L CNN
+F 2 "" H 1000 1400 50  0001 C CNN
+F 3 "~" H 1000 1400 50  0001 C CNN
+	1    1000 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E6D6C03
+P 2750 2400
+F 0 "#FLG02" H 2750 2475 50  0001 C CNN
+F 1 "PWR_FLAG" V 2750 2528 50  0000 L CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "~" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+9V #PWR01
+U 1 1 5E6D549E
+P 1000 1400
+F 0 "#PWR01" H 1000 1250 50  0001 C CNN
+F 1 "+9V" H 1015 1573 50  0000 C CNN
+F 2 "" H 1000 1400 50  0001 C CNN
+F 3 "" H 1000 1400 50  0001 C CNN
+	1    1000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR06
+U 1 1 5E6FF26E
+P 4150 3650
+F 0 "#PWR06" H 4150 3500 50  0001 C CNN
+F 1 "+9V" H 4165 3823 50  0000 C CNN
+F 2 "" H 4150 3650 50  0001 C CNN
+F 3 "" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E7873E6
+P 2100 2000
+F 0 "#PWR08" H 2100 1750 50  0001 C CNN
+F 1 "GND" H 2105 1827 50  0000 C CNN
+F 2 "" H 2100 2000 50  0001 C CNN
+F 3 "" H 2100 2000 50  0001 C CNN
+	1    2100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E73408D
+P 2100 3650
+F 0 "#PWR04" H 2100 3400 50  0001 C CNN
+F 1 "GND" H 2105 3477 50  0000 C CNN
+F 2 "" H 2100 3650 50  0001 C CNN
+F 3 "" H 2100 3650 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E717724
+P 2600 3650
+F 0 "#PWR05" H 2600 3400 50  0001 C CNN
+F 1 "GND" H 2605 3477 50  0000 C CNN
+F 2 "" H 2600 3650 50  0001 C CNN
+F 3 "" H 2600 3650 50  0001 C CNN
+	1    2600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E6D0253
+P 2750 2400
+F 0 "#PWR02" H 2750 2150 50  0001 C CNN
+F 1 "GND" H 2755 2227 50  0000 C CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E70020C
+P 4150 3750
+F 0 "#PWR07" H 4150 3500 50  0001 C CNN
+F 1 "GND" H 4155 3577 50  0000 C CNN
+F 2 "" H 4150 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E6E075C
+P 4400 2700
+F 0 "#PWR03" H 4400 2450 50  0001 C CNN
+F 1 "GND" H 4405 2527 50  0000 C CNN
+F 2 "" H 4400 2700 50  0001 C CNN
+F 3 "" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5E6EAA18
+P 1400 1750
+F 0 "R6" V 1606 1750 50  0000 C CNN
+F 1 "4k7" V 1515 1750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1330 1750 50  0001 C CNN
+F 3 "~" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5E732E73
+P 2100 3350
+F 0 "R7" H 2170 3395 50  0000 L CNN
+F 1 "1M" H 2170 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2030 3350 50  0001 C CNN
+F 3 "~" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E6EF654
+P 2750 3050
+F 0 "R1" V 2956 3050 50  0000 C CNN
+F 1 "120k" V 2865 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 3050 50  0001 C CNN
+F 3 "~" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E6D7E93
+P 2850 1000
+F 0 "R2" V 3056 1000 50  0000 C CNN
+F 1 "820R" V 2965 1000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2780 1000 50  0001 C CNN
+F 3 "~" H 2850 1000 50  0001 C CNN
+	1    2850 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E6D3E90
+P 2850 1400
+F 0 "R3" V 3056 1400 50  0000 C CNN
+F 1 "18k" V 2965 1400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2780 1400 50  0001 C CNN
+F 3 "~" H 2850 1400 50  0001 C CNN
+	1    2850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E6D87DA
+P 3450 1400
+F 0 "R4" H 3520 1445 50  0000 L CNN
+F 1 "4k7" H 3520 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3380 1400 50  0001 C CNN
+F 3 "~" H 3450 1400 50  0001 C CNN
+	1    3450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E6DBBFF
+P 3700 3050
+F 0 "R5" V 3906 3050 50  0000 C CNN
+F 1 "1k" V 3815 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 3050 50  0001 C CNN
+F 3 "~" H 3700 3050 50  0001 C CNN
+	1    3700 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N5817 D2
+U 1 1 5E746AB3
+P 1400 1400
+F 0 "D2" H 1400 1184 50  0000 C CNN
+F 1 "1N5817" H 1400 1275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1400 1225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1400 1400 50  0001 C CNN
+	1    1400 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5E6E9248
+P 1100 1750
+F 0 "D1" H 1093 1965 50  0000 C CNN
+F 1 "LED" H 1093 1874 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 1100 1750 50  0001 C CNN
+F 3 "~" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L rockola_kicad_symbols:Power_Connector J2
+U 1 1 5E6FDDB7
+P 4350 3650
+F 0 "J2" H 4430 3642 50  0000 L CNN
+F 1 "Power_Connector" H 4430 3551 50  0000 L CNN
+F 2 "rockola_kicad_footprints:Power_Header_2pin_TOP" H 4350 3650 50  0001 C CNN
+F 3 "~" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E6D2E81
+P 2300 3050
+F 0 "C1" V 2551 3050 50  0000 C CNN
+F 1 "10n" V 2460 3050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2338 2900 50  0001 C CNN
+F 3 "~" H 2300 3050 50  0001 C CNN
+	1    2300 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E6D0B2E
+P 2600 1800
+F 0 "C2" V 2851 1800 50  0000 C CNN
+F 1 "470p" V 2760 1800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2638 1650 50  0001 C CNN
+F 3 "~" H 2600 1800 50  0001 C CNN
+	1    2600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E6D1C6E
+P 3300 1800
+F 0 "C3" V 3551 1800 50  0000 C CNN
+F 1 "47p" V 3460 1800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3338 1650 50  0001 C CNN
+F 3 "~" H 3300 1800 50  0001 C CNN
+	1    3300 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E6D978B
+P 3850 1000
+F 0 "C4" V 4101 1000 50  0000 C CNN
+F 1 "22n" V 4010 1000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3888 850 50  0001 C CNN
+F 3 "~" H 3850 1000 50  0001 C CNN
+	1    3850 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5E785A25
+P 2100 1750
+F 0 "C6" H 2218 1795 50  0000 L CNN
+F 1 "47u" H 2218 1705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2138 1600 50  0001 C CNN
+F 3 "~" H 2100 1750 50  0001 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 5E6DAB4A
+P 3700 2650
+F 0 "C5" V 3954 2650 50  0000 C CNN
+F 1 "10u" V 3863 2650 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3738 2500 50  0001 C CNN
+F 3 "~" H 3700 2650 50  0001 C CNN
+	1    3700 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5E6DDF12
+P 4400 2100
+F 0 "RV1" H 4330 2055 50  0000 R CNN
+F 1 "Dirt B500k" H 4330 2145 50  0000 R CNN
+F 2 "rockola_kicad_footprints:16mm_BoardMount" H 4400 2100 50  0001 C CNN
+F 3 "~" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L rockola_kicad_symbols:Stomp_Connector J1
+U 1 1 5E701019
+P 3250 3650
+F 0 "J1" H 3330 3642 50  0000 L CNN
+F 1 "Stomp_Connector" H 3330 3551 50  0000 L CNN
+F 2 "rockola_kicad_footprints:Stomp_4pin" H 3250 3650 50  0001 C CNN
+F 3 "~" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5E6CC4D1
+P 2650 2100
+F 0 "Q1" H 2841 2145 50  0000 L CNN
+F 1 "2N3904" H 2841 2055 50  0000 L CNN
+F 2 "rockola_kicad_footprints:TO92_EBC" H 2850 2025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2650 2100 50  0001 L CNN
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rockola_kicad_symbols:BC182L Q2
+U 1 1 5E6CFCFE
+P 3350 2100
+F 0 "Q2" H 3541 2145 50  0000 L CNN
+F 1 "BC182L" H 3541 2055 50  0000 L CNN
+F 2 "rockola_kicad_footprints:TO92_EBCE" H 3550 2025 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 3350 2100 50  0001 L CNN
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
