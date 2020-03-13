@@ -18,8 +18,6 @@ version=1
 version=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e6a3237:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -256,3 +254,5 @@ dPairGap=0.25
 dPairViaGap=0.25
 [ModEditFrame]
 version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e6a8e48:
