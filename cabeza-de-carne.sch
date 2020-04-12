@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-EELAYER 32 0
+EELAYER 33 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -118,6 +118,14 @@ Wire Wire Line
 	4400 2650 4400 2700
 Wire Wire Line
 	4550 2100 4800 2100
+Text Notes 7925 6850 2    50   ~ 0
+Meathead
+Text Notes 9125 7625 2    50   ~ 0
+2020-04-12
+Text Notes 9325 7500 2    79   ~ 0
+Cabeza de Carne
+Text Notes 10875 7625 2    50   ~ 0
+v0.3
 Text GLabel 950  1750 0    50   Input ~ 0
 LED-
 Text GLabel 1900 3050 0    50   Input ~ 0
@@ -323,7 +331,7 @@ U 1 1 5E746AB3
 P 1400 1400
 F 0 "D2" H 1400 1184 50  0000 C CNN
 F 1 "1N5817" H 1400 1275 50  0000 C CNN
-F 2 "diodes:DO41-2" H 1400 1225 50  0001 C CNN
+F 2 "diodes:DO41-3" H 1400 1225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1400 1400 50  0001 C CNN
 	1    1400 1400
 	-1   0    0    1   
@@ -348,6 +356,17 @@ F 1 "Power_Connector" H 4430 3551 50  0000 L CNN
 F 2 "rockola_kicad_footprints:Power_Header_2pin_TOP" H 4350 3650 50  0001 C CNN
 F 3 "~" H 4350 3650 50  0001 C CNN
 	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5E785A25
+P 2100 1750
+F 0 "C6" H 2218 1795 50  0000 L CNN
+F 1 "47u" H 2218 1705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2138 1600 50  0001 C CNN
+F 3 "~" H 2100 1750 50  0001 C CNN
+	1    2100 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -384,28 +403,6 @@ F 3 "~" H 3300 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
-U 1 1 5E6D978B
-P 3850 1000
-F 0 "C4" V 4101 1000 50  0000 C CNN
-F 1 "22n" V 4010 1000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3888 850 50  0001 C CNN
-F 3 "~" H 3850 1000 50  0001 C CNN
-	1    3850 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP C6
-U 1 1 5E785A25
-P 2100 1750
-F 0 "C6" H 2218 1795 50  0000 L CNN
-F 1 "47u" H 2218 1705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2138 1600 50  0001 C CNN
-F 3 "~" H 2100 1750 50  0001 C CNN
-	1    2100 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C5
 U 1 1 5E6DAB4A
 P 3700 2650
@@ -414,6 +411,17 @@ F 1 "10u" V 3863 2650 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3738 2500 50  0001 C CNN
 F 3 "~" H 3700 2650 50  0001 C CNN
 	1    3700 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E6D978B
+P 3850 1000
+F 0 "C4" V 4101 1000 50  0000 C CNN
+F 1 "22n" V 4010 1000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3888 850 50  0001 C CNN
+F 3 "~" H 3850 1000 50  0001 C CNN
+	1    3850 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -455,7 +463,7 @@ U 1 1 5E6CFCFE
 P 3350 2100
 F 0 "Q2" H 3541 2145 50  0000 L CNN
 F 1 "BC182L" H 3541 2055 50  0000 L CNN
-F 2 "rockola_kicad_footprints:TO92_EBCE" H 3550 2025 50  0001 L CIN
+F 2 "rockola_kicad_footprints:TO92_ECBE" H 3550 2025 50  0001 L CIN
 F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 3350 2100 50  0001 L CNN
 	1    3350 2100
 	1    0    0    -1  
